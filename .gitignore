@@ -1,0 +1,20 @@
+# Ignore massive model files (Keep these in Google Drive!)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+
+# Ignore sensitive data and keys
+.env
+.env.local
+.env.llm
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Ignore Docker volumes and Certbot data
+ollama_data/
+certbot/
+__pycache__/
+*.pyc
